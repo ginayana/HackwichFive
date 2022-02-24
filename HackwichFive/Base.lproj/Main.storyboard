@@ -34,8 +34,8 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UwZ-4m-n1M"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQv-vl-wMn">
-                                <rect key="frame" x="178" y="413" width="59" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQv-vl-wMn">
+                                <rect key="frame" x="65" y="413" width="270" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -47,6 +47,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomLabel" destination="nQv-vl-wMn" id="PQy-JW-bCF"/>
+                        <outlet property="buttonLabel" destination="2En-oW-eQh" id="Wfg-J8-ptx"/>
                         <outlet property="topLabel" destination="fn6-gL-y7F" id="JbX-br-bcn"/>
                     </connections>
                 </viewController>
