@@ -25,17 +25,26 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonPressed(_ sender: Any) {
-        
+       
+        //If the current index is less than the total amount of strings from the favoriteFoodsArray
         if self.currentIndex < favoriteFoodsArray.count
         {
+            //Assigning the display text of the bottomLabel to the first string of the favoriteFoodsArray (since currentIndex = 0)
             self.bottomLabel.text = favoriteFoodsArray[currentIndex]
+            
+            //After button is pressed, it will then display "Next" for the text
             buttonLabel.setTitle("Next", for: UIControl.State.normal)
+            
+            //Adding the integer 1 to the currentIndex
             currentIndex += 1
         }
         
         else
         {
+            //It will print in the code "button has been disabled"
             print("button has been disabled")
+            
+            //It is FALSE that the buttonLabel is enabled, in other words the buttonLabel has been disabled
             (buttonLabel!).isEnabled = false
             
             
